@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: rgb(197,208,230);</string>
+  </property>
+  <widget class="QPushButton" name="but_menu">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>490</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 23;
+font: 12pt &quot;Yu Gothic UI Semilight&quot;;
+background-color: rgb(135, 135, 202);
+</string>
+   </property>
+   <property name="text">
+    <string>Главное меню</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_my_progress">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>490</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 23;
+font: 12pt &quot;Yu Gothic UI Semilight&quot;;
+background-color: rgb(135, 135, 202);
+</string>
+   </property>
+   <property name="text">
+    <string>Мой прогресс</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_meme">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>50</y>
+     <width>271</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_grade">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>270</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Yu Gothic UI Semilight&quot;;
+background-color: #a3b4d6;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>320</y>
+     <width>111</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">font: 75 14pt &quot;Segoe Script&quot;;</string>
+      </property>
+      <property name="text">
+       <string>всего:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">font: 75 14pt &quot;Segoe Script&quot;;</string>
+      </property>
+      <property name="text">
+       <string>верно:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">font: 75 14pt &quot;Segoe Script&quot;;</string>
+      </property>
+      <property name="text">
+       <string>неверно:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>320</y>
+     <width>51</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_total">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Yu Gothic UI Semilight&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>20</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_count_correct">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Yu Gothic UI Semilight&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>13</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_count_wrong">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Yu Gothic UI Semilight&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>7</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
